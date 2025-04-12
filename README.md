@@ -55,6 +55,14 @@ Hey there! 👋 This is my weather dashboard project that I built using React an
 - If you get API errors, double-check your API key in the .env file
 - If a port is already in use, you might need to close other apps using it
 
+## 🌐 Deployed App Links
+
+**Frontend (React App)**:  
+[https://weather-dashboard-silk-five.vercel.app](https://weather-dashboard-silk-five.vercel.app)
+
+**Backend (Express API)**:  
+[https://weather-dashboard-amf4.onrender.com](https://weather-dashboard-amf4.onrender.com)
+
 ## That's it!
 Hope you find this project useful! Feel free to play around with it and make it your own. If something's not working, just double-check the steps above and make sure everything's running properly.
 
