@@ -1,0 +1,97 @@
+/* Basic styles */
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* Dark mode styles */
+.App.dark {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.App.dark .weather-info {
+  background-color: #2d2d2d;
+  color: white;
+  border: 1px solid #444;
+}
+
+.App.dark button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.App.dark input {
+  background-color: #333;
+  color: white;
+  border: 1px solid #444;
+}
+
+/* Form styles */
+input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Weather display */
+.weather-info {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.weather-info img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Error message */
+.error {
+  color: #ff4444;
+  margin: 10px 0;
+}
+
+/* Recent searches */
+.recent-searches {
+  margin-top: 20px;
+}
+
+.recent-searches button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+/* Simple responsive design */
+@media (max-width: 600px) {
+  input {
+    width: 150px;
+  }
+  
+  .weather-info {
+    margin: 10px;
+    padding: 10px;
+  }
+} 
